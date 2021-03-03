@@ -1,14 +1,16 @@
 import React from 'react'
 import Styles from './Proficiencies.module.css'
-// import GitHubCalendar from 'react-github-calendar';
+import GitHubCalendar from 'react-github-calendar';
+import Github from './Github';
 // import ReactTooltip from 'react-tooltip';
+// import GitHubCalendar from "github-calendar"
 
 
 class Proficiencies extends React.Component{
     render(){
         return (
 
-            <div className= "my-5 container-fluid ">   
+            <div className= "my-5 container-fluid">   
 
                 <div className={`mb-5 ${Styles.heading}`} >
                     Proficiencies
@@ -39,14 +41,15 @@ class Proficiencies extends React.Component{
                 </div>
                 <div className="py-5">
                 <div className={`mb-2 ${Styles.heading}`} >
-                    Github
+                    Github Contribution
                 </div>
                    
                 </div>
-                {/* <GitHubCalendar blockSize={20} blockMargin={5} fontSize={16} username={"gaursafal"}>
-                    <ReactTooltip delayShow={50} html />
+                {/* <GitHubCalendar blockSize={20} blockMargin={5} fontSize={16} username = "gaursafal">
+                    <ReactTooltip delayShow={50} /> 
                 </GitHubCalendar> */}
-                <img src = "github.png" alt = "github"/>
+                {/* <img src = "github.png" alt = "github"/> */}
+                <Github/>
             </div>
         )
     }

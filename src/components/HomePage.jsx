@@ -5,11 +5,10 @@ import {Link} from 'react-router-dom'
 
 
 class HomePage extends React.Component{
-
     render(){
         return (
             <>
-            <div style ={{backgroundColor : "whitesmoke"}}>
+            <div style ={{backgroundColor : "#154360", paddingTop : "9px"}}>
                 <div className={`my-3 position-relative ${Styles.profile_container}`}>
                     <img src="profile.jpg" alt="profile"></img>
                     {/* <div className={`position-absolute ${Styles.decorative_circle}`}></div> */}
@@ -39,19 +38,19 @@ class HomePage extends React.Component{
 
                 <div className={`row m-4 ${Styles.details}`}>
                     <div className="col-sm-12 col-lg-4">
-                        <MdLocationOn size="40px" color="black"/>
+                        <MdLocationOn size="40px" color = "whitsmoke"/>
                         <br></br>
-                       Kanpur,India
+                       Kanpur, India
                     </div>
 
                     <div className="col-sm-12 col-lg-4">
-                       <MdCall size="40px" color="black"/> 
+                       <MdCall size="40px"/> 
                        <br></br>
                       +91 969 5696 9168
                     </div>
 
                     <div className="col-sm-12 col-lg-4">
-                        <MdEmail size="40px" color="black"/> 
+                        <MdEmail size="40px"/> 
                         <br></br>
                        safalsinghgaur@gmail.com
                     </div>
@@ -62,8 +61,9 @@ class HomePage extends React.Component{
                     Actively ready to join in a great
                     lively team in a good start-up environment and give my best.
                     <br/>
+                    <br/>
                     <button style = {{border : "none"}}>
-                    <i><Link style = {{color : "black", textDecoration : "none"}} to={{pathname:"https://drive.google.com/file/d/1zyHKkD6vNDET7P_vo4GwaFVSJY_Rbzb-/view?usp=sharing"}} target="_blank">Resume</Link></i>
+                    <i><Link style = {{color : "black", textDecoration : "none", fontFamily : "inherit"}} to={{pathname:"https://drive.google.com/file/d/1zyHKkD6vNDET7P_vo4GwaFVSJY_Rbzb-/view?usp=sharing"}} target="_blank">Resume</Link></i>
                     </button>
                 </div>
 
@@ -77,6 +77,7 @@ class HomePage extends React.Component{
                     <img src="express.png" className=" mx-2 mx-lg-5 my-3" alt="logo"></img>
                     <img src="mongo.png" className=" mx-2 mx-lg-5 my-3" alt="logo"></img>
                     <img src="github.svg" className="mx-2 mx-lg-5 my-3" alt="logo"></img>
+                    <img src="material.png" className="mx-2 mx-lg-5 my-3" alt="logo"></img>
                 </div>
                 
                 <br></br>

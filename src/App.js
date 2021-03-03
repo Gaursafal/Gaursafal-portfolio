@@ -15,7 +15,6 @@ function App() {
         <Proficiencies/>
         <Projects/>
       </div>
-
     </BrowserRouter>
   );
 }
