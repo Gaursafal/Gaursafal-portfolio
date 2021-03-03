@@ -1,9 +1,6 @@
 import React from 'react'
 import Styles from './Proficiencies.module.css'
-import GitHubCalendar from 'react-github-calendar';
 import Github from './Github';
-// import ReactTooltip from 'react-tooltip';
-// import GitHubCalendar from "github-calendar"
 
 
 class Proficiencies extends React.Component{
