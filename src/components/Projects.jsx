@@ -10,6 +10,19 @@ class Projects extends React.Component{
                 <div className="container-fluid">
                 <div className="row justify-content-center">
 
+                <div className="card col-sm- col-md-9 col-lg-3 p-0 m-3"style = {{backgroundColor : "#D6DBDF"}} >
+                        <img src="Lrc.png" className="card-img-top" alt="..."></img>
+                        <div className="card-body d-flex flex-column">
+                            <h5 className="card-title">Library Management</h5>
+                            <p className="card-text">Library website, the user can see his details and the admin has access to the user's data and can make changes to them
+accordingly. .</p>
+                            <div className="mt-auto">
+                            <a href="https://github.com/Gaursafal/Library-Management" className="btn btn-success btn-block ">Live</a>
+                            <a href="https://github.com/Gaursafal/Library-Management" className="btn btn-outline-dark btn-block ">Github link</a>
+                            </div>
+                        </div>
+                    </div>
+
                 <div className="card col-sm- col-md-9 col-lg-3 p-0 m-3" style = {{backgroundColor : "#D6DBDF"}} >
                         <img src="Shopping.png" className="card-img-top" alt="..."></img>
                         <div className="card-body d-flex flex-column">
@@ -33,34 +46,22 @@ class Projects extends React.Component{
                             <a href="https://github.com/Gaursafal/VentureBeat-Clone" className="btn btn-outline-dark btn-block ">Github link</a>
                             </div>
                         </div>
-                </div>    
+                </div>        
+                </div>
 
-                    <div className="card col-sm- col-md-9 col-lg-3 p-0 m-3" style = {{backgroundColor : "#D6DBDF"}}>
+                <div className="row justify-content-center">  
+
+                <div className="card col-sm- col-md-9 col-lg-3 p-0 m-3" style = {{backgroundColor : "#D6DBDF"}}>
                         <img src="milap.png" className="card-img-top" alt="..."></img>
                         <div className="card-body d-flex flex-column">
                             <h5 className="card-title">Milap Clone</h5>
                             <p className="card-text">Crowdfunding platform related to healthcare, education, sports, disaster relief, and other personal causes</p>
                             <div className="mt-auto">
-                            <a href="https://github.com/Gaursafal/Milaap-Clone-React" className="btn btn-success btn-block ">Live</a>
+                            <a href="https://milaap-clone-app.netlify.app/login" className="btn btn-success btn-block ">Live</a>
                             <a href="https://github.com/Gaursafal/Milaap-Clone-React" className="btn btn-outline-dark btn-block ">Github link</a>
                             </div>
                         </div>
-                    </div>     
-                </div>
-
-                <div className="row justify-content-center"> 
-
-                    <div className="card col-sm- col-md-9 col-lg-3 p-0 m-3" style = {{backgroundColor : "#D6DBDF"}}>
-                        <img src="person.png" className="card-img-top" alt="..."></img>
-                        <div className="card-body d-flex flex-column">
-                            <h5 className="card-title">Person's Card</h5>
-                            <p className="card-text">A website using technical tools through which a person add, edit and delete the details of a person.</p>
-                            <div className="mt-auto">
-                            <a href="https://github.com/Gaursafal/Persons-Card" className="btn btn-success  btn-block">Live</a>
-                            <a href="https://github.com/Gaursafal/Persons-Card" className="btn btn-outline-dark  btn-block">Github link</a>
-                            </div >
-                        </div>
-                    </div>    
+                    </div> 
 
                     <div className="card col-sm- col-md-9 col-lg-3 p-0 m-3"style = {{backgroundColor : "#D6DBDF"}} >
                         <img src="covid.png" className="card-img-top" alt="..."></img>

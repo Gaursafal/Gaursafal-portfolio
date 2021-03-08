@@ -10,7 +10,7 @@ class HomePage extends React.Component{
             <>
             <div style ={{backgroundColor : "#154360", paddingTop : "9px"}}>
                 <div className={`my-3 position-relative ${Styles.profile_container}`}>
-                    <img src="profile.jpg" alt="profile"></img>
+                    <img src="profiles.jpg" alt="profile"></img>
                     {/* <div className={`position-absolute ${Styles.decorative_circle}`}></div> */}
                 </div>
 
@@ -63,7 +63,7 @@ class HomePage extends React.Component{
                     <br/>
                     <br/>
                     <button style = {{border : "none"}}>
-                    <i><Link style = {{color : "black", textDecoration : "none", fontFamily : "inherit"}} to={{pathname:"https://drive.google.com/file/d/1zyHKkD6vNDET7P_vo4GwaFVSJY_Rbzb-/view?usp=sharing"}} target="_blank">Resume</Link></i>
+                    <i><Link style = {{color : "black", textDecoration : "none", fontFamily : "inherit"}} to={{pathname:"https://drive.google.com/drive/folders/10zWtXVx7QSZeRbEv_Z4-OCaWlNMJMoqz?usp=sharing"}} target="_blank">Resume</Link></i>
                     </button>
                 </div>
 
