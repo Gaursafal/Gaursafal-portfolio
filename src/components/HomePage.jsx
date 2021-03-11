@@ -10,7 +10,7 @@ class HomePage extends React.Component{
             <>
             <div style ={{backgroundColor : "#154360", paddingTop : "9px"}}>
                 <div className={`my-3 position-relative ${Styles.profile_container}`}>
-                    <img src="profiles.jpg" alt="profile"></img>
+                    <img src="profile.jpg" alt="profile"></img>
                     {/* <div className={`position-absolute ${Styles.decorative_circle}`}></div> */}
                 </div>
 

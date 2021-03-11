@@ -15,6 +15,7 @@ body{
 .profile_container > img {
     border-radius: 50%;
     width: 220px;
+    height: 210px;
 }
 
 .name{
